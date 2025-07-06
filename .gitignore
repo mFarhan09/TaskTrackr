@@ -1,0 +1,30 @@
+# Qt / C++ build files
+*.pro.user
+*.o
+*.obj
+*.dll
+*.exe
+*.a
+*.so
+*.moc
+*.qrc
+*.log
+
+# Build folders
+build-*/
+bin/
+debug/
+release/
+
+# CMake if used
+CMakeFiles/
+CMakeCache.txt
+Makefile
+
+# Qt Creator settings
+*.autosave
+*.user*
+*.qmlproject.user
+
+# VSCode (if used)
+.vscode/
