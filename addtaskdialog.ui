@@ -175,6 +175,11 @@
    </item>
    <item>
     <property name="text">
+     <string>Missed</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
      <string>Completed</string>
     </property>
    </item>

@@ -1,5 +1,7 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
+#include "taskdelegate.h"
+
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -9,6 +11,9 @@ MainWindow::MainWindow(QWidget *parent)
 
     taskmodel = new TaskModel(this);
     ui->TaskListView->setModel(taskmodel);
+
+    TaskDelegate* delegate = new TaskDelegate(this);
+     ui->TaskListView->setItemDelegate(delegate);
 
    ui->searchBar->setPlaceholderText("Search");
 

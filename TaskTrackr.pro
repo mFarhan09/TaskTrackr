@@ -13,12 +13,14 @@ SOURCES += \
     main.cpp \
     mainwindow.cpp \
     task.cpp \
+    taskdelegate.cpp \
     taskmodel.cpp
 
 HEADERS += \
     addtaskdialog.h \
     mainwindow.h \
     task.h \
+    taskdelegate.h \
     taskmodel.h
 
 FORMS += \
